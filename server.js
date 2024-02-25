@@ -77,8 +77,8 @@ app.post("/api/v1/store-payment", async (req, res) => {
 
 
 // Define Twilio credentials
-const accountSid = 'AC45855434f6f5a579353147b109c706fc';
-const authToken = '15eb8f42786ea0eea5efc0ca78d12f28';
+const accountSid = 'tokens';
+const authToken = 'tokens';
 const client = twilio(accountSid, authToken);
 
 // Store generated OTP in memory (you might want to use a database for this in a production environment)

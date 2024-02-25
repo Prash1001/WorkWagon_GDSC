@@ -9,13 +9,13 @@ const TABLE_HEAD = ["UIN", "Name", "Job", "Action"];
 
 const TABLE_ROWS = [
   {
-    UIN: "+918454991931",
+    UIN: "+91 1234567899", //change the numbers 
     Name: "John Max",
     Job: "Wielding",
     Action: "Payment",
   },
   {
-    UIN: "+918454096739",
+    UIN: "+91 1234567890", // change the numbers
     Name: "John Max",
     Job: "Wielding",
     Action: "Payment",
